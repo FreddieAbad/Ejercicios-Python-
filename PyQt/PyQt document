@@ -1,0 +1,20 @@
+Primero creo un .ui
+abro shell y me situo en la carpea en donde se encuentre el .ui y tipeo:
+    pyuic4 nombreArchivoUI.ui -o nombreArchivoPythonQueCreare.py
+creo un archhivo .py para que llame al archivo py que fue creado
+    import sys
+    from tutotialQT import *                    # le digo que importe del archivo creado (tutotialQt) todo el codigo
+
+    class MiFormulario(QtGui.QDialog):
+	    def __init__(self, parent=None):
+		    QtGui.QWidget.__init__(self,parent)
+		    #creo instancia de uidialog
+		    self.ui=Ui_Dialog()
+		    self.ui.setupUi(self)
+
+    if __name__=="__main__":
+	    app=QtGui.QApplication(sys.argv)
+	    myapp=MiFormulario()
+	    myapp.show()
+	    #loop de eventos hasta que se cierre la ventana
+	    sys.exit(app.exec_())

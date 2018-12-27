@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>769</width>
+    <height>595</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="ButtonAgregar">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>60</y>
+     <width>88</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Agregar</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_nombre">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>60</y>
+     <width>113</width>
+     <height>29</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_apellido">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>90</y>
+     <width>113</width>
+     <height>29</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_ci">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>120</y>
+     <width>113</width>
+     <height>29</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lb_ci">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>50</y>
+     <width>113</width>
+     <height>29</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ButtonBuscar">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>40</y>
+     <width>88</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Buscar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ButtonEliminar">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>80</y>
+     <width>88</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Eliminar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelAgregar1">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>20</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>AGREGAR USUARIO</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCI">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>60</y>
+     <width>71</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>C.I :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblInformacionUsuario">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>130</y>
+     <width>231</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>INFORMACION USUARIO</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ButtonListar">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>290</y>
+     <width>131</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Listar Usuarios</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableViewListado">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>340</y>
+     <width>711</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelAgregar1_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>60</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nombre :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelAgregar1_3">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>90</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Apellido :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelAgregar1_4">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>120</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cedula :</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
